@@ -15,8 +15,25 @@ body {
     text-align: center;
 }
 
-ul {
-    margin: 0;
+.data {
+    margin: 0 auto;
     padding: 0;
     list-style: none;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.data.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.data li {
+    color: white;
+    background-color: dodgerblue;
+    line-height: 2.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
 }
