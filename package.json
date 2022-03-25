@@ -1,0 +1,24 @@
+{
+    "name": "codesandbox-example",
+    "version": "0.0.1",
+    "description": "Codesandbox integration example",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moonwave99/codesandbox-example.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/moonwave99/codesandbox-example/issues"
+    },
+    "homepage": "https://github.com/moonwave99/codesandbox-example#readme",
+    "dependencies": {
+        "express": "^4.17.3"
+    }
+}
